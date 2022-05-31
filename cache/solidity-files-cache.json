@@ -1,0 +1,286 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/usmanfazil/Downloads/Shoefy/shoefy/ShoeFyContracts-main/NFT-Farming/contracts/Context.sol": {
+      "lastModificationDate": 1654026856577,
+      "contentHash": "a06a83834de6f8eb27f6ed608d030ac2",
+      "sourceName": "contracts/Context.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/home/usmanfazil/Downloads/Shoefy/shoefy/ShoeFyContracts-main/NFT-Farming/contracts/Ownable.sol": {
+      "lastModificationDate": 1654026856577,
+      "contentHash": "d312e87b951e03a2e9e4f5d7dca3ce3b",
+      "sourceName": "contracts/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/home/usmanfazil/Downloads/Shoefy/shoefy/ShoeFyContracts-main/NFT-Farming/contracts/Farming.sol": {
+      "lastModificationDate": 1654028589627,
+      "contentHash": "7415e1be2d580474f8411f12a63ddad9",
+      "sourceName": "contracts/Farming.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./Ownable.sol",
+        "./IFarming.sol",
+        "./INFT.sol",
+        "./SignRecovery.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ShoefyFarm"
+      ]
+    },
+    "/home/usmanfazil/Downloads/Shoefy/shoefy/ShoeFyContracts-main/NFT-Farming/contracts/IERC20.sol": {
+      "lastModificationDate": 1654026856581,
+      "contentHash": "95f9d0a189e95387c02752e76bf748c7",
+      "sourceName": "contracts/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/home/usmanfazil/Downloads/Shoefy/shoefy/ShoeFyContracts-main/NFT-Farming/contracts/IFarming.sol": {
+      "lastModificationDate": 1654028547988,
+      "contentHash": "a71bb6db79f7fb310ce9dc0320f92e8e",
+      "sourceName": "contracts/IFarming.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IShoefyFarm"
+      ]
+    },
+    "/home/usmanfazil/Downloads/Shoefy/shoefy/ShoeFyContracts-main/NFT-Farming/contracts/INFT.sol": {
+      "lastModificationDate": 1654026856581,
+      "contentHash": "8fa63931a819f445859d1cddf1f5666f",
+      "sourceName": "contracts/INFT.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "INFT"
+      ]
+    },
+    "/home/usmanfazil/Downloads/Shoefy/shoefy/ShoeFyContracts-main/NFT-Farming/contracts/SignRecovery.sol": {
+      "lastModificationDate": 1654028493152,
+      "contentHash": "290b6fa661a37aa1691b007b654bed03",
+      "sourceName": "contracts/SignRecovery.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SignRecovery"
+      ]
+    },
+    "/home/usmanfazil/Downloads/Shoefy/shoefy/ShoeFyContracts-main/NFT-Farming/contracts/token.sol": {
+      "lastModificationDate": 1654026856581,
+      "contentHash": "36cf2225acb54870a9b51bdc98cc4765",
+      "sourceName": "contracts/token.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "SafeMath",
+        "Token"
+      ]
+    }
+  }
+}
